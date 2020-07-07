@@ -10,7 +10,7 @@ services:
             - "80:80/tcp"
         restart: always
     rancher-ssl:
-        image: rancher/server:v1.6.12-rc1
+        image: rancher/rancher
         restart: always
         ports:
           - "8080:8080/tcp"
